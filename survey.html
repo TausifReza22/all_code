@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./survay.css">
+</head >
+<body>
+     <h1>Survey form</h1>
+    <div class="abcd">
+<p>
+    Let us know how we can improve freecodecamp
+</p>
+<form>
+    <div class="label"> <label for="uname">'Name:</label>
+    <input name="username" placeholder="Enter your Name" type="text" id="uname"><br><br></div> 
+    <div class="label"><label for="mail">'Email:</label>
+    <input id="mail" placeholder="Enter your Email" type="email" name="mail"><br><br></div> 
+    <div class="label"> <label for="age">'Age:</label>
+    <input id="age" placeholder="Age" type="number" name="age"><br><br></div>
+    <label class="dfgh">Which option best describes your current role? </label>
+    <select  id="student">
+        <option >select an option</option>
+        <option value="Student">Student</option>
+        <option value="l">Learner</option>
+        <option vlaue="full T job">Full Time Job</option>
+    </select><br>
+    <div>
+    <div class="box">   
+         <label class="nav">How likely is that you would recommend freecodecamp to a friend?</label>
+         <input type="radio" name="option" vlaue="1">Definitely
+    </div>
+    <div class="radio-box1">    
+        <input type="radio" name="option" value="2">Maybe
+        </div>
+        <div class="radio-box">
+            <input type="radio" name="option" value="3">Not sure
+        </div>
+    </div>
+    <label for="fcc">What do you like most in FCC: </label><select id="fcc">
+        <option disabled selected value=""> select an option</option>
+        <option value="c">Challenge</option>
+        <option value="p">project</option>
+
+    </select>
+
+        <div>
+            <label>Things that should be improved in the future(Check all that apply):</label>
+            <input type="checkbox" name="op" value="1">Front-end projects
+        </div>
+        <div class="back">
+            <input type="checkbox" name="op" value="2">Back-end projects
+        </div><br>
+        <div class="data">
+            <input type="checkbox" name="op" value="3">Data Visualization
+        </div>
+    <br><br>
+    <button class="b" id="button" type="submit">Submit</button>
+    
+
+
+</form>
+    </div>
+</body>
+</html>

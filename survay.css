@@ -1,0 +1,40 @@
+html, body{
+    background-color: aqua;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
+    background-image: url(/Task_4/what-does-a-coder-do-2022-career-guide-1.jpg);
+}
+.abcd{
+    background-color: lightgreen;
+    margin: auto;
+    border-radius: 10px;
+    width: 75%;
+    padding: 10px;
+    padding-top: 20px;
+    max-width: 900px;
+
+}
+.aaa{
+    margin-left: 390px;
+}
+
+.label{
+    margin-left: 100px;
+}
+.dfgh{
+    margin-left: 10px;
+}
+.back,.data{
+    margin-left: 38.2rem;
+    position: absolute;
+}
+.radio-box{
+    margin-left: 29.76rem;
+}
+.radio-box1{
+    margin-left: 29rem;
+}
+.b{
+    background-color: brown;
+}
